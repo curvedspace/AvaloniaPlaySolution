@@ -6,6 +6,8 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="PlaySolution.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
+        x:DataType="vm:MainWindowViewModel"
+        x:CompileBindings="True"
         Title="PlaySolution">
 
     <Design.DataContext>
