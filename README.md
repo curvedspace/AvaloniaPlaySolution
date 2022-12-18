@@ -18,3 +18,5 @@ MainWindow: MyComboBox SelectedItem is NULL <br>
 
 <br>
 In the Assets folder there are a couple of screenshots showing the problem.
+
+![Output image](/PlaySolution/Assets/avalonia_combobox_bug_output_2022-12-18_09-52.png)
