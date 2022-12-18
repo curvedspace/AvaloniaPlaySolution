@@ -15,3 +15,6 @@ MainWindowViewModel: MyRecord.MyCodeTable = Item 2 <br>
 App: DataContext has been set. <br>
 App: MyComboBox Name = MyComboBox <br>
 MainWindow: MyComboBox SelectedItem is NULL <br>
+
+<br>
+In the Assets folder there are a couple of screenshots showing the problem.
