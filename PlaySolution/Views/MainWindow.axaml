@@ -15,7 +15,7 @@
     <WrapPanel>
         <TextBlock Text="{Binding  MyRecord.Name}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <ComboBox x:Name="MyComboBox" Items="{Binding MyList}" 
-                  SelectedIndex="{Binding MyRecord.MyCodeTable.Id}" 
+                  SelectedItem="{Binding MyRecord.MyCodeTable}" 
                   AutoScrollToSelectedItem="True"></ComboBox>
         <DatePicker Name="MyDate" SelectedDate="{Binding MyRecord.StartDate}"></DatePicker>
     </WrapPanel>
