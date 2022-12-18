@@ -8,10 +8,10 @@ doing something wrong.
 Here is the output. The DataContext gets set I can see in the debugger that DataRecord object is as expected.  Other bindings to 
 a TextBox and DatePicker work as expected, just not the ComboBox.
 
-MainWindow: DataContext has been set.
-MainWindow: MyComboBox Name = MyComboBox
-MainWindow: MyComboBox SelectedItem is NULL
-MainWindowViewModel: MyRecord.MyCodeTable = Item 2
-App: DataContext has been set.
-App: MyComboBox Name = MyComboBox
-MainWindow: MyComboBox SelectedItem is NULL
+MainWindow: DataContext has been set.<br>
+MainWindow: MyComboBox Name = MyComboBox <br>
+MainWindow: MyComboBox SelectedItem is NULL <br>
+MainWindowViewModel: MyRecord.MyCodeTable = Item 2 <br>
+App: DataContext has been set. <br>
+App: MyComboBox Name = MyComboBox <br>
+MainWindow: MyComboBox SelectedItem is NULL <br>
