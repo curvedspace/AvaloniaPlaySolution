@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Avalonia.Controls;
 using CommunityToolkit.Mvvm.ComponentModel;
 using PlaySolution.Models;
@@ -28,9 +29,11 @@ namespace PlaySolution.ViewModels
             _myRecord = new DataRecord()
                 { Id = 1, Name = "Data Record A", StartDate = new DateTimeOffset(new DateTime(2000, 02, 04)) };
 
-            _myRecord.MyCodeTable.Id = 2;
-            _myRecord.MyCodeTable.Code = "HI";
-            _myRecord.MyCodeTable.Description = "Item 2";
+            // _myRecord.MyCodeTable.Id = 2;
+            // _myRecord.MyCodeTable.Code = "HI";
+            // _myRecord.MyCodeTable.Description = "Item 2";
+
+            _myRecord.MyCodeTable = _myList.First(x => x.Id == 2);
             
             Console.WriteLine("MainWindowViewModel: MyRecord.MyCodeTable = " + _myRecord.MyCodeTable.ToString());
         }
