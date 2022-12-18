@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="PlaySolution/App.axaml" value="PlaySolution/PlaySolution.csproj" />
+        <entry key="PlaySolution/Views/MainWindow.axaml" value="PlaySolution/PlaySolution.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
