@@ -20,8 +20,9 @@
                   SelectedItem="{Binding MyRecord.MyCodeTable}" 
                   AutoScrollToSelectedItem="True"></ComboBox>
         <DatePicker Name="MyDate" SelectedDate="{Binding MyRecord.StartDate}"></DatePicker>
+        <StackPanel>
+            <Calendar SelectionMode="SingleDate" DisplayMode="Month" />
+        </StackPanel>
     </WrapPanel>
-    
-    
 
 </Window>
